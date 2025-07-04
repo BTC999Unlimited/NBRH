@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\lenovo\Documents\NetBeansProjects\nbrhApp\dist\nbrhApp.jar</jar>
+  <outfile>C:\Users\lenovo\Documents\NetBeansProjects\nbrhApp\nbrhApp.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\lenovo\Downloads\monitor_computer_pc_desktop_screen_icon_262241.ico</icon>
+  <singleInstance>
+    <mutexName>nbrhApp</mutexName>
+    <windowTitle>nbrhApp</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>nbrh.Login</mainClass>
+    <cp>lib/mysql-connector-j-8.0.33.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jre1.8.0_451</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion>1.9.0</maxVersion>
+  </jre>
+</launch4jConfig>
